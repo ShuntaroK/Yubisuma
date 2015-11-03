@@ -74,7 +74,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     pickerに表示する値を返すデリゲートメソッド.
     */
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String {
-        return myValues[row] as String
+        return myValues[row] as! String
     }
     
     /*
@@ -108,46 +108,46 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     
     func aiteAnimation() {
-        aitenumber = Int(arc4random_uniform(aitenote+1))
+        aitenumber = Int(random() % aitenote+1)
         if turncount%2 == 1 {
         if aitenumber == 0 {
             if aitenote == 2 {
                 aiteImageView.image = UIImage(named: "2.0a.png")
                 if jibunnnote + aitenote == 4 {
-                    yosounumber = Int(arc4random_uniform(3))
+                    yosounumber = Int(random() % 3)
                 }else if jibunnnote + aitenote == 3 {
-                    yosounumber = Int(arc4random_uniform(2))
+                    yosounumber = Int(random() % 2)
                 }
             } else {
                 aiteImageView.image = UIImage(named: "1.0a.png")
                 if jibunnnote + aitenote == 3 {
-                    yosounumber = Int(arc4random_uniform(3))
+                    yosounumber = Int(random() % 3)
                 }else if jibunnnote + aitenote == 2 {
-                    yosounumber = Int(arc4random_uniform(2))
+                    yosounumber = Int(random() % 2)
                 }
                 }
         } else if aitenumber == 1 {
             if aitenote == 2 {
                 aiteImageView.image = UIImage(named: "2.1a.png")
                 if jibunnnote + aitenote == 4 {
-                    yosounumber = Int(arc4random_uniform(3)) + 1
+                    yosounumber = Int(random() % 3) + 1
                 }else if jibunnnote + aitenote == 3 {
-                    yosounumber = Int(arc4random_uniform(2)) + 1
+                    yosounumber = Int(random() % 2) + 1
                 }
             } else {
                 aiteImageView.image = UIImage(named: "1.1a.png")
                 if jibunnnote + aitenote == 3 {
-                    yosounumber = Int(arc4random_uniform(3)) + 1
+                    yosounumber = Int(random() % 3) + 1
                 }else if jibunnnote + aitenote == 2 {
-                    yosounumber = Int(arc4random_uniform(2)) + 1
+                    yosounumber = Int(random() % 2) + 1
                 }
             }
         }else if aitenumber == 2 {
             aiteImageView.image = UIImage(named: "2.2a.png")
             if jibunnnote + aitenote == 4 {
-                yosounumber = Int(arc4random_uniform(3)) + 2
+                yosounumber = Int(random() % 3) + 2
             }else if jibunnnote + aitenote == 3 {
-                yosounumber = Int(arc4random_uniform(2)) + 2
+                yosounumber = Int(random() % 2) + 2
             }
             }
         }else {
@@ -268,9 +268,16 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             self.agerubt3.hidden = true
             myUIPicker.hidden = true
             self.aiteturn()
-            jibunImageView.image = UIImage(named: "1.0j.png")
+            self.performSelector(Selector("removeYubij"), withObject: nil, afterDelay: 1.5)
         }
         
+    }
+    
+    func removeYubij() {
+        jibunImageView.image = UIImage(named: "1.0j.png")
+    }
+    func removeYubia() {
+        aiteImageView.image = UIImage(named: "1.0a.png")
     }
     
     func aitegood(){
@@ -278,6 +285,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
 
         if aitenote == 2 {
         aitenote = aitenote - 1
+        self.performSelector(Selector("removeYubia"), withObject: nil, afterDelay: 1.5)
         aiteImageView.image = UIImage(named: "1.0a.png")
         } else {
             NSLog("相手の勝ち")
@@ -294,7 +302,6 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     func aitebad(){
         NSLog("あいてあたらず！！")
-
        // self.gamestart()
         self.jibunturn()
     }
