@@ -17,6 +17,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ow6-oT-v4B">
+                                <rect key="frame" x="0.0" y="124" width="320" height="320"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown のコピー.png" translatesAutoresizingMaskIntoConstraints="NO" id="zpf-6H-eWH">
+                                <rect key="frame" x="0.0" y="432" width="320" height="136"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown のコピー.png" translatesAutoresizingMaskIntoConstraints="NO" id="fWA-kw-Y1C">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="139"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSt-AN-Kqz">
+                                <rect key="frame" x="57" y="273" width="223" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVp-I7-XNH">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <animations/>
@@ -53,13 +72,6 @@
                                     <action selector="ageru2" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ck9-T8-0aB"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSt-AN-Kqz">
-                                <rect key="frame" x="57" y="155" width="223" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6Q-Uz-BqJ">
                                 <rect key="frame" x="256" y="360" width="64" height="60"/>
                                 <animations/>
@@ -71,7 +83,15 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ApI-Ko-dao">
-                                <rect key="frame" x="93" y="19" width="150" height="128"/>
+                                <rect key="frame" x="93" y="54" width="150" height="128"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bOT-Lm-iOk">
+                                <rect key="frame" x="93" y="137" width="150" height="150"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5de-Zc-zjs">
+                                <rect key="frame" x="93" y="278" width="150" height="150"/>
                                 <animations/>
                             </imageView>
                         </subviews>
@@ -84,7 +104,9 @@
                         <outlet property="agerubt2" destination="dgw-x9-h3U" id="0zr-76-LGa"/>
                         <outlet property="agerubt3" destination="45k-Vl-2eh" id="rJn-yy-uxe"/>
                         <outlet property="aiteImageView" destination="ApI-Ko-dao" id="cVW-1a-DG6"/>
+                        <outlet property="aiteserihu" destination="bOT-Lm-iOk" id="Z2O-mE-TfX"/>
                         <outlet property="jibunImageView" destination="6ia-9R-WUR" id="whb-uz-hMZ"/>
+                        <outlet property="jibunserihu" destination="5de-Zc-zjs" id="bra-4G-zbT"/>
                         <outlet property="outcome" destination="gSt-AN-Kqz" id="Qhs-oR-tHN"/>
                         <outlet property="startbt" destination="jVp-I7-XNH" id="5PR-qM-fFE"/>
                         <segue destination="0Fs-s0-jjm" kind="presentation" identifier="toWin" id="JRE-hD-xJD"/>
@@ -265,6 +287,8 @@
         <image name="2.1j.png" width="525" height="656"/>
         <image name="2.2a.png" width="498" height="631"/>
         <image name="2.2j.png" width="498" height="631"/>
+        <image name="Unknown のコピー.png" width="59" height="5"/>
+        <image name="Unknown.png" width="225" height="225"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="aHk-j7-H6d"/>

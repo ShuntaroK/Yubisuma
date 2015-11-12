@@ -19,6 +19,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     @IBOutlet var jibunImageView: UIImageView!
     @IBOutlet var aiteImageView: UIImageView!
+    @IBOutlet var jibunserihu: UIImageView!
+    @IBOutlet var aiteserihu: UIImageView!
     
     var yosounumber: Int = 0
     var agerunumber: Int = 0
@@ -51,7 +53,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         
         // DataSourceを設定する.
         myUIPicker.dataSource = self
-
+        
     }
     
     /*
@@ -87,7 +89,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         print("row: \(row)")
         print("value: \(myValues[row])")
     }
-
+    
     
     @IBAction func start() {
         self.startbt.hidden = true
@@ -108,54 +110,54 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     
     func aiteAnimation() {
-        aitenumber = Int(random() % aitenote+1)
+        aitenumber = Int(random() % (aitenote+1))
         if turncount%2 == 1 {
-        if aitenumber == 0 {
-            if aitenote == 2 {
-                aiteImageView.image = UIImage(named: "2.0a.png")
+            if aitenumber == 0 {
+                if aitenote == 2 {
+                    aiteImageView.image = UIImage(named: "2.0a.png")
+                    if jibunnnote + aitenote == 4 {
+                        yosounumber = Int(random() % 3)
+                    }else if jibunnnote + aitenote == 3 {
+                        yosounumber = Int(random() % 2)
+                    }
+                } else {
+                    aiteImageView.image = UIImage(named: "1.0a.png")
+                    if jibunnnote + aitenote == 3 {
+                        yosounumber = Int(random() % 3)
+                    }else if jibunnnote + aitenote == 2 {
+                        yosounumber = Int(random() % 2)
+                    }
+                }
+            } else if aitenumber == 1 {
+                if aitenote == 2 {
+                    aiteImageView.image = UIImage(named: "2.1a.png")
+                    if jibunnnote + aitenote == 4 {
+                        yosounumber = Int(random() % 3) + 1
+                    }else if jibunnnote + aitenote == 3 {
+                        yosounumber = Int(random() % 2) + 1
+                    }
+                } else {
+                    aiteImageView.image = UIImage(named: "1.1a.png")
+                    if jibunnnote + aitenote == 3 {
+                        yosounumber = Int(random() % 3) + 1
+                    }else if jibunnnote + aitenote == 2 {
+                        yosounumber = Int(random() % 2) + 1
+                    }
+                }
+            }else if aitenumber == 2 {
+                aiteImageView.image = UIImage(named: "2.2a.png")
                 if jibunnnote + aitenote == 4 {
-                    yosounumber = Int(random() % 3)
+                    yosounumber = Int(random() % 3) + 2
                 }else if jibunnnote + aitenote == 3 {
-                    yosounumber = Int(random() % 2)
+                    yosounumber = Int(random() % 2) + 2
                 }
-            } else {
-                aiteImageView.image = UIImage(named: "1.0a.png")
-                if jibunnnote + aitenote == 3 {
-                    yosounumber = Int(random() % 3)
-                }else if jibunnnote + aitenote == 2 {
-                    yosounumber = Int(random() % 2)
-                }
-                }
-        } else if aitenumber == 1 {
-            if aitenote == 2 {
-                aiteImageView.image = UIImage(named: "2.1a.png")
-                if jibunnnote + aitenote == 4 {
-                    yosounumber = Int(random() % 3) + 1
-                }else if jibunnnote + aitenote == 3 {
-                    yosounumber = Int(random() % 2) + 1
-                }
-            } else {
-                aiteImageView.image = UIImage(named: "1.1a.png")
-                if jibunnnote + aitenote == 3 {
-                    yosounumber = Int(random() % 3) + 1
-                }else if jibunnnote + aitenote == 2 {
-                    yosounumber = Int(random() % 2) + 1
-                }
-            }
-        }else if aitenumber == 2 {
-            aiteImageView.image = UIImage(named: "2.2a.png")
-            if jibunnnote + aitenote == 4 {
-                yosounumber = Int(random() % 3) + 2
-            }else if jibunnnote + aitenote == 3 {
-                yosounumber = Int(random() % 2) + 2
-            }
             }
         }else {
             
             if aitenumber == 0 {
                 if aitenote == 2 {
                     aiteImageView.image = UIImage(named: "2.0a.png")
-                   
+                    
                 } else {
                     aiteImageView.image = UIImage(named: "1.0a.png")
                     
@@ -170,7 +172,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                 }
             }else if aitenumber == 2 {
                 aiteImageView.image = UIImage(named: "2.2a.png")
-               
+                
             }
             
         }
@@ -183,7 +185,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             jibunImageView.image = UIImage(named: "2.0j.png")
         } else {
             jibunImageView.image = UIImage(named: "1.0j.png")
-
+            
         }
         
         self.aiteAnimation()
@@ -194,7 +196,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             self.aitehentai()
         }
         turncount = turncount + 1
-
+        
     }
     
     @IBAction func ageru1() {
@@ -203,7 +205,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             jibunImageView.image = UIImage(named: "2.1j.png")
         } else {
             jibunImageView.image = UIImage(named: "1.1j.png")
-
+            
         }
         
         self.aiteAnimation()
@@ -214,7 +216,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             self.aitehentai()
         }
         turncount = turncount + 1
-
+        
     }
     @IBAction func ageru2() {
         agerunumber = 2
@@ -228,13 +230,13 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             self.aitehentai()
         }
         turncount = turncount + 1
-
+        
     }
-
+    
     
     func hentai(){
-   //     NSLog("相手...%d", aitenumber)
-   //     NSLog("予想...%d", yosounumber)
+        //     NSLog("相手...%d", aitenumber)
+        //     NSLog("予想...%d", yosounumber)
         outcome.text = "予想は" + String(yosounumber)
         
         if aitenumber + agerunumber == yosounumber {
@@ -245,20 +247,20 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     
     func aitehentai(){
-     //   aitenumber = Int(arc4random_uniform(3))
-    //    NSLog("相手...%d", aitenumber)
-    //    NSLog("予想...%d", yosounumber)
+        //   aitenumber = Int(arc4random_uniform(3))
+        //    NSLog("相手...%d", aitenumber)
+        //    NSLog("予想...%d", yosounumber)
         outcome.text = String(yosounumber)
-//        if aitenumber == 0 {
-//            aiteImageView.image = UIImage(named: "notraised2.png")
-//        }
+        //        if aitenumber == 0 {
+        //            aiteImageView.image = UIImage(named: "notraised2.png")
+        //        }
         if aitenumber + agerunumber == yosounumber {
             self.aitegood()
         }else {
             self.aitebad()
         }
     }
-
+    
     func good(){
         NSLog("あたった！！")
         if jibunnnote == 1 {
@@ -268,9 +270,19 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             self.agerubt3.hidden = true
             myUIPicker.hidden = true
             self.aiteturn()
-            self.performSelector(Selector("removeYubij"), withObject: nil, afterDelay: 1.5)
+            self.performSelector(Selector("removeYubij"), withObject: nil, afterDelay: 1)
+            jibunserihu.image = UIImage(named: "serihuj")
+            self.performSelector(Selector("removeSerihuj"), withObject: nil, afterDelay: 1)
         }
         
+    }
+    
+    func removeSerihuj() {
+        self.jibunserihu.hidden = true
+    }
+    
+    func removeSerihua() {
+        self.aiteserihu.hidden = true
     }
     
     func removeYubij() {
@@ -282,17 +294,18 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     func aitegood(){
         NSLog("相手あたった！！")
-
+        
         if aitenote == 2 {
-        aitenote = aitenote - 1
-        self.performSelector(Selector("removeYubia"), withObject: nil, afterDelay: 1.5)
-        aiteImageView.image = UIImage(named: "1.0a.png")
+            aitenote = aitenote - 1
+            self.performSelector(Selector("removeYubia"), withObject: nil, afterDelay: 1)
+            aiteserihu.image = UIImage(named: "serihua")
+            self.performSelector(Selector("removeSerihua"), withObject: nil, afterDelay: 1)
         } else {
             NSLog("相手の勝ち")
-        self.performSegueWithIdentifier("toLose", sender: self)
+            self.performSegueWithIdentifier("toLose", sender: self)
         }
         self.jibunturn()
-
+        
     }
     
     func bad(){
@@ -302,10 +315,10 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     func aitebad(){
         NSLog("あいてあたらず！！")
-       // self.gamestart()
+        // self.gamestart()
         self.jibunturn()
     }
-
+    
     func clear(){
         NSLog("自分の勝ち")
         self.performSegueWithIdentifier("toWin", sender: self)
@@ -323,12 +336,12 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         
         //aitenumber = Int(arc4random_uniform(3))
         
-       
-//        if aitenumber + agerunumber == yosounumber {
-//            self.aitegood()
-//        }else {
-//            self.bad()
-//        }
+        
+        //        if aitenumber + agerunumber == yosounumber {
+        //            self.aitegood()
+        //        }else {
+        //            self.bad()
+        //        }
         
         
     }
@@ -337,7 +350,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 
