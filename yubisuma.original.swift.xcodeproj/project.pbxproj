@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27A3623E7CF0F39CD80CE999 /* Pods_yubisuma_original_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E070177B09D1BD0ECA3420 /* Pods_yubisuma_original_swift.framework */; };
+		3905C6421C73428B00C41896 /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905C6411C73428B00C41896 /* WinViewController.swift */; };
 		392601131C1992ED003F9455 /* btn031.zip in Resources */ = {isa = PBXBuildFile; fileRef = 392600A91C1992ED003F9455 /* btn031.zip */; };
 		392601141C1992ED003F9455 /* btn031_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 392600AA1C1992ED003F9455 /* btn031_01.png */; };
 		392601151C1992ED003F9455 /* btn031_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 392600AB1C1992ED003F9455 /* btn031_02.png */; };
@@ -95,6 +97,28 @@
 		39BB51881C2011F300E368B5 /* 2.2a1.png in Resources */ = {isa = PBXBuildFile; fileRef = 39BB51831C2011F300E368B5 /* 2.2a1.png */; };
 		39BB518B1C20167500E368B5 /* fukidashi001 のコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 39BB51891C20167500E368B5 /* fukidashi001 のコピー.png */; };
 		39BB518C1C20167500E368B5 /* fukidashi001.png in Resources */ = {isa = PBXBuildFile; fileRef = 39BB518A1C20167500E368B5 /* fukidashi001.png */; };
+		39E7997A1C733A2300A70D52 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 39E799641C733A2300A70D52 /* Contents.json */; };
+		39E7997B1C733A2300A70D52 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E799651C733A2300A70D52 /* Icon-40.png */; };
+		39E7997C1C733A2300A70D52 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E799661C733A2300A70D52 /* Icon-40@2x.png */; };
+		39E7997D1C733A2300A70D52 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E799671C733A2300A70D52 /* Icon-40@3x.png */; };
+		39E7997E1C733A2300A70D52 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E799681C733A2300A70D52 /* Icon-60@2x.png */; };
+		39E7997F1C733A2300A70D52 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E799691C733A2300A70D52 /* Icon-60@3x.png */; };
+		39E799801C733A2300A70D52 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E7996A1C733A2300A70D52 /* Icon-76.png */; };
+		39E799811C733A2300A70D52 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E7996B1C733A2300A70D52 /* Icon-76@2x.png */; };
+		39E799821C733A2300A70D52 /* Icon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E7996C1C733A2300A70D52 /* Icon-83.5@2x.png */; };
+		39E799831C733A2300A70D52 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E7996D1C733A2300A70D52 /* Icon-Small.png */; };
+		39E799841C733A2300A70D52 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E7996E1C733A2300A70D52 /* Icon-Small@2x.png */; };
+		39E799851C733A2300A70D52 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E7996F1C733A2300A70D52 /* Icon-Small@3x.png */; };
+		39E799861C733A2300A70D52 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E799701C733A2300A70D52 /* Icon-60.png */; };
+		39E799871C733A2300A70D52 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E799711C733A2300A70D52 /* Icon-72.png */; };
+		39E799881C733A2300A70D52 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E799721C733A2300A70D52 /* Icon-72@2x.png */; };
+		39E799891C733A2300A70D52 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E799731C733A2300A70D52 /* Icon-Small-50.png */; };
+		39E7998A1C733A2300A70D52 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E799741C733A2300A70D52 /* Icon-Small-50@2x.png */; };
+		39E7998B1C733A2300A70D52 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E799751C733A2300A70D52 /* Icon.png */; };
+		39E7998C1C733A2300A70D52 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E799761C733A2300A70D52 /* Icon@2x.png */; };
+		39E7998D1C733A2300A70D52 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E799771C733A2300A70D52 /* iTunesArtwork.png */; };
+		39E7998E1C733A2300A70D52 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E799781C733A2300A70D52 /* iTunesArtwork@2x.png */; };
+		39E7998F1C733A2300A70D52 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 39E799791C733A2300A70D52 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +132,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3905C6411C73428B00C41896 /* WinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinViewController.swift; sourceTree = "<group>"; };
 		392600A91C1992ED003F9455 /* btn031.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = btn031.zip; sourceTree = "<group>"; };
 		392600AA1C1992ED003F9455 /* btn031_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn031_01.png; sourceTree = "<group>"; };
 		392600AB1C1992ED003F9455 /* btn031_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn031_02.png; sourceTree = "<group>"; };
@@ -166,6 +191,7 @@
 		392600E01C1992ED003F9455 /* higurashi_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = higurashi_logo.png; sourceTree = "<group>"; };
 		3935C2A51C45170E0012EA3C /* cinecaption2.28.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = cinecaption2.28.ttf; sourceTree = "<group>"; };
 		394C08531BA82BA1008BFF13 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = SOURCE_ROOT; };
+		395505FDEEF00D5B60235019 /* Pods-yubisuma.original.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yubisuma.original.swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yubisuma.original.swift/Pods-yubisuma.original.swift.debug.xcconfig"; sourceTree = "<group>"; };
 		3959B76F1C5785430083A859 /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = SOURCE_ROOT; };
 		3959B7711C578DA90083A859 /* FontopoNIKUKYU.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontopoNIKUKYU.otf; sourceTree = "<group>"; };
 		39A135641B9EDDBA00090A38 /* yubisuma.original.swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yubisuma.original.swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,6 +226,30 @@
 		39BB51831C2011F300E368B5 /* 2.2a1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.2a1.png; sourceTree = "<group>"; };
 		39BB51891C20167500E368B5 /* fukidashi001 のコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fukidashi001 のコピー.png"; sourceTree = "<group>"; };
 		39BB518A1C20167500E368B5 /* fukidashi001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fukidashi001.png; sourceTree = "<group>"; };
+		39E799641C733A2300A70D52 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		39E799651C733A2300A70D52 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		39E799661C733A2300A70D52 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		39E799671C733A2300A70D52 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		39E799681C733A2300A70D52 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		39E799691C733A2300A70D52 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		39E7996A1C733A2300A70D52 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		39E7996B1C733A2300A70D52 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		39E7996C1C733A2300A70D52 /* Icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-83.5@2x.png"; sourceTree = "<group>"; };
+		39E7996D1C733A2300A70D52 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		39E7996E1C733A2300A70D52 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		39E7996F1C733A2300A70D52 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		39E799701C733A2300A70D52 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		39E799711C733A2300A70D52 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		39E799721C733A2300A70D52 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		39E799731C733A2300A70D52 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		39E799741C733A2300A70D52 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		39E799751C733A2300A70D52 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		39E799761C733A2300A70D52 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		39E799771C733A2300A70D52 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		39E799781C733A2300A70D52 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		39E799791C733A2300A70D52 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		499810F4A7147A081BADF702 /* Pods-yubisuma.original.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yubisuma.original.swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-yubisuma.original.swift/Pods-yubisuma.original.swift.release.xcconfig"; sourceTree = "<group>"; };
+		87E070177B09D1BD0ECA3420 /* Pods_yubisuma_original_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yubisuma_original_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +257,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A3623E7CF0F39CD80CE999 /* Pods_yubisuma_original_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +271,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		359C9D9E5B1A9CACBC03B8BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				395505FDEEF00D5B60235019 /* Pods-yubisuma.original.swift.debug.xcconfig */,
+				499810F4A7147A081BADF702 /* Pods-yubisuma.original.swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		392600A81C1992ED003F9455 /* 素材 */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,6 +351,8 @@
 				39A135661B9EDDBA00090A38 /* yubisuma.original.swift */,
 				39A1357C1B9EDDBA00090A38 /* yubisuma.original.swiftTests */,
 				39A135651B9EDDBA00090A38 /* Products */,
+				359C9D9E5B1A9CACBC03B8BE /* Pods */,
+				F2C7BF1C74FC0C2DF2E898FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -322,13 +384,15 @@
 				39BB51771C20117700E368B5 /* 1.0j1.png */,
 				39BB51781C20117700E368B5 /* 2.2j1.png */,
 				39BB51791C20117700E368B5 /* 2.0j1.png */,
+				39E799621C733A2300A70D52 /* ios */,
 				392600A81C1992ED003F9455 /* 素材 */,
 				39A135691B9EDDBA00090A38 /* AppDelegate.swift */,
-				39AF6E7A1C0DB222005F3F89 /* 3.5inch.storyboard */,
 				39A1356B1B9EDDBA00090A38 /* ViewController.swift */,
 				3959B76F1C5785430083A859 /* ColorManager.swift */,
+				3905C6411C73428B00C41896 /* WinViewController.swift */,
 				394C08531BA82BA1008BFF13 /* StartViewController.swift */,
 				39A1356D1B9EDDBA00090A38 /* Main.storyboard */,
+				39AF6E7A1C0DB222005F3F89 /* 3.5inch.storyboard */,
 				39A135701B9EDDBA00090A38 /* Images.xcassets */,
 				39AF6E6C1C0DB116005F3F89 /* StoryboardHelper-master */,
 				39A135671B9EDDBA00090A38 /* Supporting Files */,
@@ -382,6 +446,51 @@
 			path = Defaults;
 			sourceTree = "<group>";
 		};
+		39E799621C733A2300A70D52 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				39E799631C733A2300A70D52 /* AppIcon.appiconset */,
+				39E799701C733A2300A70D52 /* Icon-60.png */,
+				39E799711C733A2300A70D52 /* Icon-72.png */,
+				39E799721C733A2300A70D52 /* Icon-72@2x.png */,
+				39E799731C733A2300A70D52 /* Icon-Small-50.png */,
+				39E799741C733A2300A70D52 /* Icon-Small-50@2x.png */,
+				39E799751C733A2300A70D52 /* Icon.png */,
+				39E799761C733A2300A70D52 /* Icon@2x.png */,
+				39E799771C733A2300A70D52 /* iTunesArtwork.png */,
+				39E799781C733A2300A70D52 /* iTunesArtwork@2x.png */,
+				39E799791C733A2300A70D52 /* README.md */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		39E799631C733A2300A70D52 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				39E799641C733A2300A70D52 /* Contents.json */,
+				39E799651C733A2300A70D52 /* Icon-40.png */,
+				39E799661C733A2300A70D52 /* Icon-40@2x.png */,
+				39E799671C733A2300A70D52 /* Icon-40@3x.png */,
+				39E799681C733A2300A70D52 /* Icon-60@2x.png */,
+				39E799691C733A2300A70D52 /* Icon-60@3x.png */,
+				39E7996A1C733A2300A70D52 /* Icon-76.png */,
+				39E7996B1C733A2300A70D52 /* Icon-76@2x.png */,
+				39E7996C1C733A2300A70D52 /* Icon-83.5@2x.png */,
+				39E7996D1C733A2300A70D52 /* Icon-Small.png */,
+				39E7996E1C733A2300A70D52 /* Icon-Small@2x.png */,
+				39E7996F1C733A2300A70D52 /* Icon-Small@3x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		F2C7BF1C74FC0C2DF2E898FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87E070177B09D1BD0ECA3420 /* Pods_yubisuma_original_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -389,9 +498,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39A135831B9EDDBA00090A38 /* Build configuration list for PBXNativeTarget "yubisuma.original.swift" */;
 			buildPhases = (
+				DD167C0852572EA58C0D9DC9 /* Check Pods Manifest.lock */,
 				39A135601B9EDDBA00090A38 /* Sources */,
 				39A135611B9EDDBA00090A38 /* Frameworks */,
 				39A135621B9EDDBA00090A38 /* Resources */,
+				74D2F3F9EA6388369B9106B2 /* Embed Pods Frameworks */,
+				CD4849395CC5FFEC8EFE8499 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -467,32 +579,45 @@
 				3926011C1C1992ED003F9455 /* btn031_09.png in Resources */,
 				3926011E1C1992ED003F9455 /* btn039.zip in Resources */,
 				392601401C1992ED003F9455 /* btn051_09.gif in Resources */,
+				39E7997B1C733A2300A70D52 /* Icon-40.png in Resources */,
 				3926013A1C1992ED003F9455 /* btn051_03.gif in Resources */,
 				392601331C1992ED003F9455 /* btn050_11.png in Resources */,
 				39BB518C1C20167500E368B5 /* fukidashi001.png in Resources */,
 				39BB51851C2011F300E368B5 /* 1.1a1.png in Resources */,
 				392601341C1992ED003F9455 /* btn050_12.png in Resources */,
 				392601481C1992ED003F9455 /* btn057_08.png in Resources */,
+				39E799891C733A2300A70D52 /* Icon-Small-50.png in Resources */,
+				39E799821C733A2300A70D52 /* Icon-83.5@2x.png in Resources */,
 				392601491C1992ED003F9455 /* btn057_09.png in Resources */,
+				39E799841C733A2300A70D52 /* Icon-Small@2x.png in Resources */,
 				3926013F1C1992ED003F9455 /* btn051_08.gif in Resources */,
+				39E7998A1C733A2300A70D52 /* Icon-Small-50@2x.png in Resources */,
 				3926013E1C1992ED003F9455 /* btn051_07.gif in Resources */,
 				39B9C32C1BF1FC2F004BC24E /* serihua.png in Resources */,
 				392601281C1992ED003F9455 /* btn050.zip in Resources */,
 				39AF6E771C0DB116005F3F89 /* Default-736h@3x.png in Resources */,
+				39E799811C733A2300A70D52 /* Icon-76@2x.png in Resources */,
+				39E799801C733A2300A70D52 /* Icon-76.png in Resources */,
 				392601451C1992ED003F9455 /* btn057_05.png in Resources */,
 				39A1356F1B9EDDBA00090A38 /* Main.storyboard in Resources */,
+				39E7997E1C733A2300A70D52 /* Icon-60@2x.png in Resources */,
 				392601381C1992ED003F9455 /* btn051_01.gif in Resources */,
 				39AF6E741C0DB116005F3F89 /* .gitignore in Resources */,
 				392601431C1992ED003F9455 /* btn057_03.png in Resources */,
 				392601241C1992ED003F9455 /* btn039_07.png in Resources */,
 				3935C2A61C45170E0012EA3C /* cinecaption2.28.ttf in Resources */,
 				3926012C1C1992ED003F9455 /* btn050_04.png in Resources */,
+				39E799831C733A2300A70D52 /* Icon-Small.png in Resources */,
+				39E799871C733A2300A70D52 /* Icon-72.png in Resources */,
 				39BB517C1C20117700E368B5 /* 1.0j1.png in Resources */,
 				392601361C1992ED003F9455 /* btn050_14.png in Resources */,
 				3926013C1C1992ED003F9455 /* btn051_05.gif in Resources */,
+				39E7997A1C733A2300A70D52 /* Contents.json in Resources */,
 				392601231C1992ED003F9455 /* btn039_06.png in Resources */,
 				3926012E1C1992ED003F9455 /* btn050_06.png in Resources */,
+				39E7998D1C733A2300A70D52 /* iTunesArtwork.png in Resources */,
 				39BB517D1C20117700E368B5 /* 2.2j1.png in Resources */,
+				39E7997F1C733A2300A70D52 /* Icon-60@3x.png in Resources */,
 				39BB518B1C20167500E368B5 /* fukidashi001 のコピー.png in Resources */,
 				392601421C1992ED003F9455 /* btn057_02.png in Resources */,
 				39BB517E1C20117700E368B5 /* 2.0j1.png in Resources */,
@@ -505,19 +630,23 @@
 				39AF6E761C0DB116005F3F89 /* Default-667h@2x.png in Resources */,
 				39B9C32B1BF1FC2F004BC24E /* serihuj.png in Resources */,
 				392601391C1992ED003F9455 /* btn051_02.gif in Resources */,
+				39E7998E1C733A2300A70D52 /* iTunesArtwork@2x.png in Resources */,
 				3926011B1C1992ED003F9455 /* btn031_08.png in Resources */,
 				392601251C1992ED003F9455 /* btn039_08.png in Resources */,
 				39BB51841C2011F300E368B5 /* 1.0a1.png in Resources */,
+				39E799861C733A2300A70D52 /* Icon-60.png in Resources */,
 				392601411C1992ED003F9455 /* btn051_10.gif in Resources */,
 				39A135711B9EDDBA00090A38 /* Images.xcassets in Resources */,
 				3926011A1C1992ED003F9455 /* btn031_07.png in Resources */,
 				3926013B1C1992ED003F9455 /* btn051_04.gif in Resources */,
 				39AF6E7B1C0DB222005F3F89 /* 3.5inch.storyboard in Resources */,
+				39E7998B1C733A2300A70D52 /* Icon.png in Resources */,
 				39B9C3301BF204E8004BC24E /* Unknown のコピー.png in Resources */,
 				392601301C1992ED003F9455 /* btn050_08.png in Resources */,
 				392601261C1992ED003F9455 /* btn039_09.png in Resources */,
 				392601201C1992ED003F9455 /* btn039_02.png in Resources */,
 				39BB51871C2011F300E368B5 /* 2.1a1.png in Resources */,
+				39E7998C1C733A2300A70D52 /* Icon@2x.png in Resources */,
 				3959B7721C578DA90083A859 /* FontopoNIKUKYU.otf in Resources */,
 				39BB51861C2011F300E368B5 /* 2.0a1.png in Resources */,
 				392601461C1992ED003F9455 /* btn057_06.png in Resources */,
@@ -526,6 +655,8 @@
 				392601211C1992ED003F9455 /* btn039_03.png in Resources */,
 				3926012F1C1992ED003F9455 /* btn050_07.png in Resources */,
 				392601191C1992ED003F9455 /* btn031_06.png in Resources */,
+				39E799881C733A2300A70D52 /* Icon-72@2x.png in Resources */,
+				39E799851C733A2300A70D52 /* Icon-Small@3x.png in Resources */,
 				39BB51881C2011F300E368B5 /* 2.2a1.png in Resources */,
 				392601311C1992ED003F9455 /* btn050_09.png in Resources */,
 				392601221C1992ED003F9455 /* btn039_05.png in Resources */,
@@ -535,6 +666,7 @@
 				392601441C1992ED003F9455 /* btn057_04.png in Resources */,
 				392601131C1992ED003F9455 /* btn031.zip in Resources */,
 				39B9C32F1BF204E8004BC24E /* Unknown.png in Resources */,
+				39E7997D1C733A2300A70D52 /* Icon-40@3x.png in Resources */,
 				392601141C1992ED003F9455 /* btn031_01.png in Resources */,
 				392601351C1992ED003F9455 /* btn050_13.png in Resources */,
 				392601181C1992ED003F9455 /* btn031_05.png in Resources */,
@@ -542,6 +674,7 @@
 				39BB517A1C20117700E368B5 /* 1.1j1.png in Resources */,
 				3926012D1C1992ED003F9455 /* btn050_05.png in Resources */,
 				392601471C1992ED003F9455 /* btn057_07.png in Resources */,
+				39E7997C1C733A2300A70D52 /* Icon-40@2x.png in Resources */,
 				3926012A1C1992ED003F9455 /* btn050_02.png in Resources */,
 				3926011F1C1992ED003F9455 /* btn039_01.png in Resources */,
 			);
@@ -556,6 +689,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		74D2F3F9EA6388369B9106B2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yubisuma.original.swift/Pods-yubisuma.original.swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD4849395CC5FFEC8EFE8499 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yubisuma.original.swift/Pods-yubisuma.original.swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD167C0852572EA58C0D9DC9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		39A135601B9EDDBA00090A38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -564,9 +745,11 @@
 				39A1356C1B9EDDBA00090A38 /* ViewController.swift in Sources */,
 				39A1356A1B9EDDBA00090A38 /* AppDelegate.swift in Sources */,
 				39AF6E781C0DB116005F3F89 /* README.md in Sources */,
+				39E7998F1C733A2300A70D52 /* README.md in Sources */,
 				3959B7701C5785430083A859 /* ColorManager.swift in Sources */,
 				39AF6E791C0DB116005F3F89 /* StoryboardHelper.swift in Sources */,
 				394C08541BA82BA1008BFF13 /* StartViewController.swift in Sources */,
+				3905C6421C73428B00C41896 /* WinViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,6 +862,7 @@
 		};
 		39A135841B9EDDBA00090A38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395505FDEEF00D5B60235019 /* Pods-yubisuma.original.swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = yubisuma.original.swift/Info.plist;
@@ -689,6 +873,7 @@
 		};
 		39A135851B9EDDBA00090A38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499810F4A7147A081BADF702 /* Pods-yubisuma.original.swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = yubisuma.original.swift/Info.plist;

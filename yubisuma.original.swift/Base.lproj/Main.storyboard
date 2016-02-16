@@ -43,7 +43,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown のコピー.png" translatesAutoresizingMaskIntoConstraints="NO" id="fWA-kw-Y1C">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="139"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSt-AN-Kqz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSt-AN-Kqz">
                                 <rect key="frame" x="57" y="273" width="223" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -54,6 +54,7 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="cinecaption" family="cinecaption" pointSize="22"/>
                                 <state key="normal" title="画面を押してゲームスタート！">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.38418834860000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -67,6 +68,7 @@
                                 <rect key="frame" x="256" y="420" width="64" height="60"/>
                                 <fontDescription key="fontDescription" name="cinecaption" family="cinecaption" pointSize="15"/>
                                 <state key="normal" title="片方">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.38418834860000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -77,6 +79,7 @@
                                 <rect key="frame" x="256" y="480" width="64" height="60"/>
                                 <fontDescription key="fontDescription" name="cinecaption" family="cinecaption" pointSize="15"/>
                                 <state key="normal" title="両方">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.38418834860000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -87,6 +90,7 @@
                                 <rect key="frame" x="256" y="360" width="64" height="60"/>
                                 <fontDescription key="fontDescription" name="cinecaption" family="cinecaption" pointSize="15"/>
                                 <state key="normal" title="あげない">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.38418834860000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -154,26 +158,26 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown のコピー.png" translatesAutoresizingMaskIntoConstraints="NO" id="j0W-wY-dc5">
                                 <rect key="frame" x="-17" y="-9" width="357" height="145"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2y-1s-adA">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.10269396551724137" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="au7-Zz-D0p">
                                 <rect key="frame" x="71" y="481" width="180" height="30"/>
                                 <state key="normal" title="もどる" backgroundImage="btn051_02.gif">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="9q3-RW-VHK" kind="modal" id="Nsn-z6-Bnr"/>
+                                    <segue destination="9q3-RW-VHK" kind="modal" modalTransitionStyle="crossDissolve" id="Nsn-z6-Bnr"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="マケター" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTT-9H-81r">
                                 <rect key="frame" x="38" y="160" width="246" height="136"/>
                                 <fontDescription key="fontDescription" name="FontopoNIKUKYU" family="FontopoNIKUKYU" pointSize="55"/>
                                 <color key="textColor" red="0.97700725558538981" green="1" blue="0.99632582342950637" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2y-1s-adA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.10269396551724137" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -184,10 +188,10 @@
             </objects>
             <point key="canvasLocation" x="396" y="-122"/>
         </scene>
-        <!--View Controller-->
+        <!--Win View Controller-->
         <scene sceneID="Odw-2D-ilC">
             <objects>
-                <viewController id="0Fs-s0-jjm" sceneMemberID="viewController">
+                <viewController id="0Fs-s0-jjm" customClass="WinViewController" customModule="yubisuma_original_swift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Zle-nv-APK"/>
                         <viewControllerLayoutGuide type="bottom" id="TSU-jN-fP6"/>
@@ -217,7 +221,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="9q3-RW-VHK" kind="modal" id="aHk-j7-H6d"/>
+                                    <segue destination="9q3-RW-VHK" kind="modal" modalTransitionStyle="crossDissolve" id="aHk-j7-H6d"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="カッター" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="643-hj-eP3">
@@ -229,10 +233,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="z6n-JH-MqU" id="704-Zj-Za6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NmA-JI-r2j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="396" y="472"/>
+            <point key="canvasLocation" x="402" y="541"/>
         </scene>
         <!--Start View Controller-->
         <scene sceneID="4yx-rd-j5Q">
@@ -322,7 +329,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vXZ-lx-hvc" kind="modal" id="ioS-A2-unF"/>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" modalTransitionStyle="crossDissolve" id="ioS-A2-unF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -359,6 +366,6 @@
         <image name="btn051_02.gif" width="180" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Nsn-z6-Bnr"/>
+        <segue reference="aHk-j7-H6d"/>
     </inferredMetricsTieBreakers>
 </document>
