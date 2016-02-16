@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9q3-RW-VHK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="9q3-RW-VHK">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="FontopoNIKUKYU.otf">
+            <string>FontopoNIKUKYU</string>
+            <string>FontopoNIKUKYU</string>
+            <string>FontopoNIKUKYU</string>
+            <string>FontopoNIKUKYU</string>
+            <string>FontopoNIKUKYU</string>
+            <string>FontopoNIKUKYU</string>
+            <string>FontopoNIKUKYU</string>
+        </mutableArray>
+        <mutableArray key="cinecaption2.28.ttf">
+            <string>cinecaption</string>
+            <string>cinecaption</string>
+            <string>cinecaption</string>
+            <string>cinecaption</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -19,28 +36,23 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ow6-oT-v4B">
                                 <rect key="frame" x="0.0" y="124" width="320" height="320"/>
-                                <animations/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown のコピー.png" translatesAutoresizingMaskIntoConstraints="NO" id="zpf-6H-eWH">
                                 <rect key="frame" x="0.0" y="432" width="320" height="136"/>
-                                <animations/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown のコピー.png" translatesAutoresizingMaskIntoConstraints="NO" id="fWA-kw-Y1C">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="139"/>
-                                <animations/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSt-AN-Kqz">
                                 <rect key="frame" x="57" y="273" width="223" height="21"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVp-I7-XNH">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="cinecaption" family="cinecaption" pointSize="22"/>
                                 <state key="normal" title="画面を押してゲームスタート！">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -48,13 +60,12 @@
                                     <action selector="start" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wQU-6a-eiR"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ia-9R-WUR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ia-9R-WUR">
                                 <rect key="frame" x="93" y="386" width="150" height="128"/>
-                                <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgw-x9-h3U">
                                 <rect key="frame" x="256" y="420" width="64" height="60"/>
-                                <animations/>
+                                <fontDescription key="fontDescription" name="cinecaption" family="cinecaption" pointSize="15"/>
                                 <state key="normal" title="片方">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -64,7 +75,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45k-Vl-2eh">
                                 <rect key="frame" x="256" y="480" width="64" height="60"/>
-                                <animations/>
+                                <fontDescription key="fontDescription" name="cinecaption" family="cinecaption" pointSize="15"/>
                                 <state key="normal" title="両方">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -74,7 +85,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6Q-Uz-BqJ">
                                 <rect key="frame" x="256" y="360" width="64" height="60"/>
-                                <animations/>
+                                <fontDescription key="fontDescription" name="cinecaption" family="cinecaption" pointSize="15"/>
                                 <state key="normal" title="あげない">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -82,20 +93,16 @@
                                     <action selector="ageru0" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lz9-h0-ogQ"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ApI-Ko-dao">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ApI-Ko-dao">
                                 <rect key="frame" x="93" y="54" width="150" height="128"/>
-                                <animations/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bOT-Lm-iOk">
                                 <rect key="frame" x="93" y="137" width="150" height="150"/>
-                                <animations/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5de-Zc-zjs">
                                 <rect key="frame" x="93" y="278" width="150" height="150"/>
-                                <animations/>
                             </imageView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -109,13 +116,13 @@
                         <outlet property="jibunserihu" destination="5de-Zc-zjs" id="bra-4G-zbT"/>
                         <outlet property="outcome" destination="gSt-AN-Kqz" id="Qhs-oR-tHN"/>
                         <outlet property="startbt" destination="jVp-I7-XNH" id="5PR-qM-fFE"/>
-                        <segue destination="0Fs-s0-jjm" kind="presentation" identifier="toWin" id="JRE-hD-xJD"/>
-                        <segue destination="J9n-au-GWP" kind="presentation" identifier="toLose" id="PPj-rz-rMZ"/>
+                        <segue destination="0Fs-s0-jjm" kind="modal" identifier="toWin" id="JRE-hD-xJD"/>
+                        <segue destination="J9n-au-GWP" kind="modal" identifier="toLose" id="PPj-rz-rMZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="359" y="170"/>
+            <point key="canvasLocation" x="-41" y="166"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MwI-go-r7J">
@@ -131,29 +138,51 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="まけたー" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDL-ba-O5y">
                                 <rect key="frame" x="126" y="273" width="68" height="21"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="au7-Zz-D0p">
-                                <rect key="frame" x="138" y="302" width="45" height="30"/>
-                                <animations/>
-                                <state key="normal" title="もどる">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown.png" translatesAutoresizingMaskIntoConstraints="NO" id="nqS-Nx-dgq">
+                                <rect key="frame" x="0.0" y="124" width="320" height="320"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown のコピー.png" translatesAutoresizingMaskIntoConstraints="NO" id="N4g-KK-mDH">
+                                <rect key="frame" x="-36" y="423" width="357" height="145"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown のコピー.png" translatesAutoresizingMaskIntoConstraints="NO" id="gwt-Kw-jMu">
+                                <rect key="frame" x="-26" y="433" width="357" height="145"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown のコピー.png" translatesAutoresizingMaskIntoConstraints="NO" id="j0W-wY-dc5">
+                                <rect key="frame" x="-17" y="-9" width="357" height="145"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2y-1s-adA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.10269396551724137" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="au7-Zz-D0p">
+                                <rect key="frame" x="71" y="481" width="180" height="30"/>
+                                <state key="normal" title="もどる" backgroundImage="btn051_02.gif">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="9q3-RW-VHK" kind="modal" id="Nsn-z6-Bnr"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="マケター" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTT-9H-81r">
+                                <rect key="frame" x="38" y="160" width="246" height="136"/>
+                                <fontDescription key="fontDescription" name="FontopoNIKUKYU" family="FontopoNIKUKYU" pointSize="55"/>
+                                <color key="textColor" red="0.97700725558538981" green="1" blue="0.99632582342950637" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qVd-b1-8C3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="744" y="-128"/>
+            <point key="canvasLocation" x="396" y="-122"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Odw-2D-ilC">
@@ -169,29 +198,41 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="かったー" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ol-KA-0Pm">
                                 <rect key="frame" x="126" y="273" width="68" height="21"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z6n-JH-MqU">
-                                <rect key="frame" x="138" y="302" width="45" height="30"/>
-                                <animations/>
-                                <state key="normal" title="もどる">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xoe-38-eVz">
+                                <rect key="frame" x="0.0" y="124" width="320" height="320"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown のコピー.png" translatesAutoresizingMaskIntoConstraints="NO" id="vfZ-lj-bne">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="137"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown のコピー.png" translatesAutoresizingMaskIntoConstraints="NO" id="wQ3-1L-hhU">
+                                <rect key="frame" x="0.0" y="431" width="320" height="137"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z6n-JH-MqU">
+                                <rect key="frame" x="71" y="485" width="180" height="30"/>
+                                <state key="normal" title="もどる" backgroundImage="btn051_02.gif">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="9q3-RW-VHK" kind="modal" id="aHk-j7-H6d"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="カッター" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="643-hj-eP3">
+                                <rect key="frame" x="50" y="198" width="222" height="136"/>
+                                <fontDescription key="fontDescription" name="FontopoNIKUKYU" family="FontopoNIKUKYU" pointSize="55"/>
+                                <color key="textColor" red="1" green="0.16337893086601707" blue="0.061971804765937111" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NmA-JI-r2j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="744" y="499"/>
+            <point key="canvasLocation" x="396" y="472"/>
         </scene>
         <!--Start View Controller-->
         <scene sceneID="4yx-rd-j5Q">
@@ -207,90 +248,117 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbN-nb-WnK">
                                 <rect key="frame" x="0.0" y="20" width="320" height="548"/>
-                                <animations/>
-                                <color key="backgroundColor" red="1" green="0.9735728031634685" blue="0.018684092268843933" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="61"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="FontopoNIKUKYU" family="FontopoNIKUKYU" pointSize="61"/>
+                                <color key="textColor" red="0.43141346720000001" green="0.57885078020000003" blue="0.62966358420000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.0a.png" translatesAutoresizingMaskIntoConstraints="NO" id="s4J-kC-p83">
-                                <rect key="frame" x="280" y="100" width="40" height="80"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.1a.png" translatesAutoresizingMaskIntoConstraints="NO" id="JuR-oU-9t3">
-                                <rect key="frame" x="240" y="100" width="40" height="80"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.0a.png" translatesAutoresizingMaskIntoConstraints="NO" id="G8p-Du-f3K">
-                                <rect key="frame" x="160" y="100" width="80" height="80"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.2a.png" translatesAutoresizingMaskIntoConstraints="NO" id="J4Q-21-LMq">
-                                <rect key="frame" x="0.0" y="100" width="80" height="80"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.1a.png" translatesAutoresizingMaskIntoConstraints="NO" id="zW9-Wm-NOa">
-                                <rect key="frame" x="80" y="100" width="80" height="80"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.0j.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wa2-aj-hdb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SPJ-hN-1Ce">
+                                <rect key="frame" x="130" y="527" width="80" height="21"/>
+                                <fontDescription key="fontDescription" name="FontopoNIKUKYU" family="FontopoNIKUKYU" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aq5-Zs-Eok">
+                                <rect key="frame" x="42" y="527" width="80" height="21"/>
+                                <fontDescription key="fontDescription" name="FontopoNIKUKYU" family="FontopoNIKUKYU" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="勝率" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKX-J7-qfy">
+                                <rect key="frame" x="218" y="527" width="34" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3U-dV-7gk">
+                                <rect key="frame" x="260" y="527" width="60" height="21"/>
+                                <fontDescription key="fontDescription" name="FontopoNIKUKYU" family="FontopoNIKUKYU" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="戦歴" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ao-yQ-ZgX">
+                                <rect key="frame" x="0.0" y="527" width="34" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.0j1.png" translatesAutoresizingMaskIntoConstraints="NO" id="fhf-tb-axF">
                                 <rect key="frame" x="0.0" y="400" width="40" height="80"/>
-                                <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.1j.png" translatesAutoresizingMaskIntoConstraints="NO" id="f3n-SV-p1e">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.1j1.png" translatesAutoresizingMaskIntoConstraints="NO" id="3kG-0d-w0N">
                                 <rect key="frame" x="40" y="400" width="40" height="80"/>
-                                <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.0j.png" translatesAutoresizingMaskIntoConstraints="NO" id="KsR-f0-9VN">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.1a1.png" translatesAutoresizingMaskIntoConstraints="NO" id="AH8-to-t4K">
+                                <rect key="frame" x="240" y="100" width="40" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.0a1.png" translatesAutoresizingMaskIntoConstraints="NO" id="3IG-sw-geo">
+                                <rect key="frame" x="280" y="100" width="40" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.0j1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dxz-TU-Zig">
                                 <rect key="frame" x="80" y="400" width="80" height="80"/>
-                                <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.2j.png" translatesAutoresizingMaskIntoConstraints="NO" id="yPR-lK-smd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.0a1.png" translatesAutoresizingMaskIntoConstraints="NO" id="x3p-9p-ups">
+                                <rect key="frame" x="160" y="100" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.2a1.png" translatesAutoresizingMaskIntoConstraints="NO" id="fRY-yf-b0W">
+                                <rect key="frame" x="0.0" y="100" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.2j1.png" translatesAutoresizingMaskIntoConstraints="NO" id="uOo-aM-eID">
                                 <rect key="frame" x="240" y="400" width="80" height="80"/>
-                                <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.1j.png" translatesAutoresizingMaskIntoConstraints="NO" id="xh2-yh-Ppt">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.1j1.png" translatesAutoresizingMaskIntoConstraints="NO" id="feF-vC-j3R">
                                 <rect key="frame" x="160" y="400" width="80" height="80"/>
-                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.1a1.png" translatesAutoresizingMaskIntoConstraints="NO" id="ln7-sS-cPR">
+                                <rect key="frame" x="80" y="100" width="80" height="80"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7dX-7C-dcf">
-                                <rect key="frame" x="0.0" y="228" width="320" height="111"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="Let's　ゆびすま">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="0.0" y="227" width="320" height="113"/>
+                                <color key="backgroundColor" red="1" green="0.8947666019779148" blue="0.89345002618710245" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="FontopoNIKUKYU" family="FontopoNIKUKYU" pointSize="60"/>
+                                <state key="normal" title="ゆびすま">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vXZ-lx-hvc" kind="presentation" id="ioS-A2-unF"/>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="ioS-A2-unF"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="haikei" destination="qbN-nb-WnK" id="OLa-WY-OMK"/>
+                        <outlet property="katiLabel" destination="aq5-Zs-Eok" id="QMX-5Y-f1u"/>
+                        <outlet property="makeLabel" destination="SPJ-hN-1Ce" id="LUU-aB-PJl"/>
+                        <outlet property="raberukunn" destination="GKX-J7-qfy" id="SaR-aV-LBQ"/>
+                        <outlet property="shourituLabel" destination="V3U-dV-7gk" id="Vz5-EO-f95"/>
+                        <outlet property="startButton" destination="7dX-7C-dcf" id="Jvj-Pb-UNc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hbf-1K-tRy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-44" y="170"/>
+            <point key="canvasLocation" x="-436" y="160"/>
         </scene>
     </scenes>
     <resources>
-        <image name="1.0a.png" width="299" height="585"/>
-        <image name="1.0j.png" width="299" height="585"/>
-        <image name="1.1a.png" width="360" height="618"/>
-        <image name="1.1j.png" width="360" height="618"/>
-        <image name="2.0a.png" width="525" height="638"/>
-        <image name="2.0j.png" width="525" height="638"/>
-        <image name="2.1a.png" width="525" height="656"/>
-        <image name="2.1j.png" width="525" height="656"/>
-        <image name="2.2a.png" width="498" height="631"/>
-        <image name="2.2j.png" width="498" height="631"/>
+        <image name="1.0a1.png" width="299" height="585"/>
+        <image name="1.0j1.png" width="299" height="585"/>
+        <image name="1.1a1.png" width="360" height="618"/>
+        <image name="1.1j1.png" width="360" height="618"/>
+        <image name="2.0a1.png" width="525" height="638"/>
+        <image name="2.0j1.png" width="525" height="638"/>
+        <image name="2.1a1.png" width="525" height="656"/>
+        <image name="2.1j1.png" width="525" height="656"/>
+        <image name="2.2a1.png" width="498" height="631"/>
+        <image name="2.2j1.png" width="498" height="631"/>
         <image name="Unknown のコピー.png" width="59" height="5"/>
         <image name="Unknown.png" width="225" height="225"/>
+        <image name="btn051_02.gif" width="180" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aHk-j7-H6d"/>
+        <segue reference="Nsn-z6-Bnr"/>
     </inferredMetricsTieBreakers>
 </document>
